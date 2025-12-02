@@ -1,0 +1,24 @@
+class class_name(object):
+  def __init__(self, attribute, attribute1):
+    self.attribute = attribute
+    self.attribute1 = attribute1
+class other_class(object):
+  def __init__(self, attribute, attribute1):
+    self.attribute = attribute
+    self.attribute1 = attribute1
+
+
+class other_class(object):
+  def __init__(self, attribute, attribute1):
+    self.attribute = attribute
+    self.attribute1 = attribute1
+   
+   def sum_attribute(self, attribute = None, attribute1 = None): #we initialise both to none in case nothing is given
+     if attribute == None:
+       self.attribute = class_name();
+     else:
+       self.attribute = attribute
+     if attribute1 == None:
+       self.attribute1 = class_name()
+     else:
+       self.attribute1 = attribute1
